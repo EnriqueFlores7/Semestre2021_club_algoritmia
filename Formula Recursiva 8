@@ -1,0 +1,28 @@
+#include <iostream>
+typedef unsigned long long int ulli;
+ulli arr[1000010];
+using namespace std;
+ulli recursiva(ulli n);
+int main()
+{
+    ulli n=0;
+    cin >>n;
+    cout<<recursiva(n);
+    return 0;
+}
+//Funciones
+ulli recursiva(ulli n)
+{
+    if(arr[n]==0)
+    {
+        if(n<4)
+        {
+            arr[n]=10;
+        }
+        else
+        {
+            arr[n]=recursiva(n-2)+recursiva(n-4)+30;
+        }
+    }
+    return arr[n];
+}

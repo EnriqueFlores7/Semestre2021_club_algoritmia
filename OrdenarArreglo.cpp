@@ -7,7 +7,7 @@ void desordenar(int arr[],int n);
 main()
 {
     int num1;
-    cout << "Dame el tamaño del el arreglo" <<endl;
+    cout << "Dame el tamaÃ±o del el arreglo" <<endl;
     cin >> num1;
     int N[num1];
     for(int contador=0; contador < num1; contador++)
@@ -54,7 +54,7 @@ void ordenar(int arr[], int n)
             }
             mostrar(arr, n);
         }
-        if(!desordenado)  //YA ESTÁ ORDENADO
+        if(!desordenado)  //YA ESTÃ ORDENADO
         {
             break;
         }
@@ -78,7 +78,7 @@ void desordenar(int arr[], int n)
             }
             mostrar(arr, n);
         }
-        if(!desordenado)  //YA ESTÁ ORDENADO
+        if(!desordenado)  //YA ESTÃ ORDENADO
         {
             break;
         }

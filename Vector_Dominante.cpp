@@ -6,7 +6,7 @@ int main()
 {
     int n,suma1=0,suma2=0,error=0;
     error==0;
-    cout << "Dame el tamaño del array" << endl;
+    cout << "Dame el tamaÃ±o del array" << endl;
     cin >> n;
     int vector1[n], vector2[n];
 
